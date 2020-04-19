@@ -97,8 +97,8 @@ void INsInvterm::CmpINsinvTerm()
 	Real rvnr = iinv.rr * vnr;
 
 
-	iinv.rf[ug.fId] = (iinv.rl + iinv.rr) * half;    //初始界面上的值（u、v、w ）
-	iinv.uf[ug.fId] = (iinv.ul + iinv.ur ) * half;
+	iinv.rf[ug.fId] = (iinv.rl + iinv.rr);    //初始界面上的值（u、v、w ）
+	iinv.uf[ug.fId] = (iinv.ul + iinv.ur );
 	iinv.vf[ug.fId] = (iinv.vl + iinv.vr ) * half;
 	iinv.wf[ug.fId] = (iinv.wl + iinv.wr ) * half;
 
